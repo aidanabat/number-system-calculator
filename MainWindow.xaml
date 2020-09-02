@@ -1,0 +1,21 @@
+﻿<Window x:Class="NumberSystemCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NumberSystemCalculator"
+        mc:Ignorable="d"
+        Title="Number Systems Calculator" Height="450" Width="800">
+    <Grid>
+        <UniformGrid Columns="2" Rows="4">
+            <Label Content="Number To Convert"/>
+            <Label Content="Base of Number To Convert"/>
+            <TextBox/>
+            <TextBox/>
+            <Label Content="Base to Convert To"/>
+            <Label Content="Result"/>
+            <TextBox/>
+            <Label/>
+        </UniformGrid>
+    </Grid>
+</Window>
